@@ -1,0 +1,24 @@
+.tittle {
+    text-align: center;
+    margin-top: 220px;
+    color: #F4ECF7;
+    text-shadow: black 1px 0 10px;
+}
+
+.tittle h1 {
+    font-size: 8rem;
+    padding-bottom: 15px;
+}
+
+@media (max-height: 700px) {
+    .tittle {
+        margin-top: 100px;
+    }
+}
+
+
+@media (max-width: 790px) {
+    .tittle h1 {
+        font-size: 5rem;
+    }
+}
