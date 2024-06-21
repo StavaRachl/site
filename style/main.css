@@ -14,7 +14,7 @@ body {
 .wrapper {
     z-index: -100;
     position: absolute;
-    background-image: url(/assets/background/background.png);
+    background-image: url(https://stavarachl.github.io/assets/background/background.png);
     width: 100%;
     height: 100%;
     background-position: center center;
