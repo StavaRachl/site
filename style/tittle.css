@@ -8,6 +8,7 @@
 .tittle h1 {
     font-size: 8rem;
     padding-bottom: 15px;
+    animation: fadeInTitle 3s ease;
 }
 
 @media (max-height: 700px) {
@@ -28,4 +29,16 @@
         font-size: 3rem;
     }
 
+}
+
+@keyframes fadeInTitle {
+    0% {
+        opacity: 0;
+        padding-right: 200px;
+    }
+
+    100% {
+        opacity: 1;
+        padding-right: 0;
+    }
 }
