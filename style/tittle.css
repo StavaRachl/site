@@ -17,8 +17,15 @@
 }
 
 
-@media (max-width: 790px) {
+@media (max-width: 790px) and (min-width: 500px) {
     .tittle h1 {
         font-size: 5rem;
     }
+}
+
+@media(max-width: 500px) {
+    .tittle h1 {
+        font-size: 3rem;
+    }
+
 }

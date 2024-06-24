@@ -6,7 +6,7 @@
 }
 
 .navImg {
-    margin: 20px;
+    margin: 30px;
     width: 60px;
     position: absolute;
     border-radius: 50%;
@@ -16,7 +16,7 @@
 
 .navbar ul {
     display: flex;
-    background-color:#6C3483 ;
+    background-color:#9354AE ;
     padding-left: 20px;
     padding-top: 10px;
     border-radius: 10px;
@@ -40,7 +40,7 @@
 }
 
 .navbar ul li a:hover {
-    background-color: #8E44AD;
+    background-color: #A357C3;
     color: #D2B4DE;
 }
 
