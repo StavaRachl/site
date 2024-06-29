@@ -11,6 +11,7 @@ body {
     background-image: linear-gradient(#9967AE, #72348C);
     animation: fadeIn 2s ease;
     cursor: default;
+    overflow: hidden;
 }
 
 
@@ -29,5 +30,10 @@ body {
     #myLogo {
         display: none;
     }
+
+}
+
+#particles-js {
+    position: absolute;
 
 }
