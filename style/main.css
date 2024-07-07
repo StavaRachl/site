@@ -8,7 +8,6 @@
 
 body {
     height: 100vh;
-    background-image: linear-gradient(#9967AE, #72348C);
     animation: fadeIn 2s ease;
     cursor: default;
     overflow: hidden;
