@@ -19,7 +19,8 @@
 
 @media (max-width: 790px) and (min-width: 500px) {
     .tittle h1 {
-        font-size: 5rem;
+        font-size: 4rem;
+        padding-top: 25px;
     }
 }
 
