@@ -26,6 +26,7 @@
 @media(max-width: 500px) {
     .tittle h1 {
         font-size: 4rem;
+        padding-top: 25px;
     }
 
 }
