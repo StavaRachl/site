@@ -16,7 +16,7 @@
 
 .navbar ul {
     display: flex;
-    background-color:#D05245 ;
+    background-color:#212f3d ;
     padding-left: 20px;
     padding-top: 10px;
     border-radius: 0 0 20px 20px;
@@ -40,8 +40,8 @@
 }
 
 .navbar ul li a:hover {
-    background-color: #CD3F30;
-    color: #E07165;
+    background-color: #212f3d;
+    color: #2c3e50;
 }
 
 .navImg:hover {
