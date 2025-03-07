@@ -1,6 +1,6 @@
 .tittle {
     text-align: center;
-    margin-top: 220px;
+    margin-top: 240px;
     color: #F4ECF7;
     text-shadow: black 1px 0 10px;
 }
@@ -36,7 +36,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url('https://github.com/StavaRachl/site/blob/main/assets/unknown-dark-mojave-desert.jpg');
+    background-image: url('../assets/unknown-dark-mojave-desert.jpg');
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
