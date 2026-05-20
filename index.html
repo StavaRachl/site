@@ -1,33 +1,193 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StavaRaChI</title>
-    <link rel="shortcut icon" href="assets/icon.png">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/navbar.css">
-    <link rel="stylesheet" href="style/tittle.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
 </head>
 <body>
-    <div id="particles-js"></div>
-    <header>
-        <div class="navbar">
-            <ul class="linkMenu">
-                <li><a id="copyBtnDiscord" href=""><i class='bx bxl-discord-alt'></i></a></li>
-                <li><a href="https://www.youtube.com/channel/UCf1YbKLs56GD5VuFtiVKbqg" target="_blank"><i class='bx bxl-youtube'></i></a></li>
-                <li><a href="https://vk.com/stavarachiii" target="_blank"><i class='bx bxl-vk' ></i></a></li>
-                <li><a href="https://steamcommunity.com/profiles/76561199334130810/" target="_blank"><i class='bx bxl-steam' ></i></a></li>
-                <li><a href="https://github.com/StavaRachl" target="_blank"><i class='bx bxl-github'></i></a></li>
-            </ul>
-        </div>
-        <div class="tittle">
+<div class="noise"></div>
+<header>
+    <div class="logo">
+        <span>&lt;</span> StavaRaChI <span>&gt;</span>
+    </div>
+
+    <div class="navbar">
+        <a href="#about">about me</a>
+        <a href="#stack">skills</a>
+        <a href="#projects">projects</a>
+        <a href="#footer">contact</a>
+    </div>
+</header>
+<main>
+    <div class="hero">
+        <div class="title">
             <h1>StavaRaChI</h1>
+            <h2>Java developer</h2>
+            <div class="buttons">
+                <a href="#projects" class="primary-btn">View projects</a>
+                <a href="https://github.com/StavaRachl" class="secondary-btn" target="_blank">GitHub</a>
+            </div>
+            <p>A 17 y.o. Java and Python developer studying at college for a degree in Information Systems and
+                Programming.</p>
         </div>
-    </header>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
-    <script src="./script/app.js"></script>
-    <script src="./script/copyDiscord.js"></script>
+    </div>
+    <section class="about" id="about">
+        <div class="about-me">
+            <div class="about-me-title">
+                <h1>About me</h1>
+                <p>
+                    I'm a 17-year-old Java and Python developer living in Khabarovsk and studying at a technical college
+                    majoring in Information Systems and Programming.
+                </p>
+                <p>
+                    I started programming at age 15 as a front-end developer.
+                </p>
+                <p>
+                    At age 16, I switched to back-end development using the Java programming language.
+                </p>
+                <p>
+                    I currently develop Telegram bots in Java and Python, and also practice creating back-end websites
+                    and desktop applications.
+                </p>
+            </div>
+            <div class="card-am">
+                <div class="about-me-card">
+                    <h1>3+</h1>
+                    <p>Years</p>
+                </div>
+                <div class="about-me-card">
+                    <h1>5</h1>
+                    <p>Projects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stack">
+        <h1>Skills</h1>
+
+        <div class="skills">
+            <div class="skill-card">
+                <i class="fa-brands fa-java" style="font-size: 50px"></i>
+                <h3>Java</h3>
+                <p>Backend, Telegram bots</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-python" style="font-size: 50px"></i>
+                <h3>Python</h3>
+                <p>Telegram bots, Scripting</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-js" style="font-size: 50px"></i>
+                <h3>JavaScript</h3>
+                <p>Frontend</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-git-alt" style="font-size: 50px; padding-right: 10px;"></i>
+                <i class="fa-brands fa-github" style="font-size: 50px"></i>
+                <h3>Git / Github</h3>
+                <p>Version control</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-regular fa-note-sticky"></i>
+                <h3>Notion</h3>
+                <p>ToDo</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-terminal"></i>
+                <h3>Termius</h3>
+                <p>Server control</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-windows"></i>
+                <h3>Windows</h3>
+                <p>Main OS</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-linux"></i>
+                <h3>Linux</h3>
+                <p>Work OS</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="projects">
+            <div class="project-card">
+                <div class="project-left">
+                    <i class="fa-brands fa-telegram project-icon"></i>
+                </div>
+
+                <div class="project-right">
+                    <div class="project-links">
+                        <a href="http://telegram.me/khtcbot" target="_blank">
+                            Telegram
+                        </a>
+                        <a href="https://github.com/StavaRachl/ScheduleBotHTK" target="_blank">
+                            GitHub
+                        </a>
+                    </div>
+
+                    <h2 class="project-title">Schedule Bot HTK</h2>
+                    <p class="project-stack">Java, Maven, Telegram Bots API</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-left">
+                    <i class="fa-brands fa-telegram project-icon"></i>
+                </div>
+
+                <div class="project-right">
+                    <div class="project-links">
+                        <a href="https://github.com/StavaRachl/WeatherApp" target="_blank">
+                            GitHub
+                        </a>
+                    </div>
+
+                    <h2 class="project-title">Weather App</h2>
+                    <p class="project-stack">Java, Maven, Telegram Bots Api, Open Weather Api</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <section id="footer">
+        <div class="footer-content">
+
+            <div class="footer-socials">
+
+                <a href="https://github.com/StavaRachl" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://www.youtube.com/@stavarachi" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+                <a href="https://steamcommunity.com/id/StavaRaChI/" target="_blank">
+                    <i class="fa-brands fa-steam"></i>
+                </a>
+
+                <a href="https://t.me/StavaRaChiii" target="_blank">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+
+                <a href="https://vk.com/stavarachiii" target="_blank">
+                    <i class="fa-brands fa-vk"></i>
+                </a>
+            </div>
+
+            <p class="footer-copy">
+                © 2026 StavaRaChI. All rights reserved.
+            </p>
+
+        </div>
+    </section>
+</footer>
 </body>
 </html>
