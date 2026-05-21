@@ -78,7 +78,7 @@ header {
 }
 
 .title {
-    max-width: 800px;
+    max-width: 1000px;
     padding: 40px 60px;
     border-radius: 16px;
 
@@ -89,12 +89,12 @@ header {
 }
 
 .hero h1 {
-    font-size: 80px;
+    font-size: 150px;
     margin-bottom: 10px;
 }
 
 .hero h2 {
-    font-size: 40px;
+    font-size: 70px;
     margin-bottom: 20px;
     color: #a9b7ff;
 }
@@ -118,7 +118,7 @@ header {
     padding: 10px 20px;
     border-radius: 8px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 30px;
     transition: 0.3s;
 }
 
@@ -155,7 +155,7 @@ header {
 }
 
 .about-me-title {
-    max-width: 800px;
+    max-width: 1000px;
     padding: 40px;
     border-radius: 16px;
 
@@ -166,13 +166,13 @@ header {
 }
 
 .about-me-title h1 {
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: 20px;
 }
 
 .about-me-title p {
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 25px;
     color: #cfd6ff;
 }
 
@@ -207,6 +207,14 @@ header {
     padding: 50px 8%;
 }
 
+.skill-card h3 {
+    font-size: 40px;
+}
+
+.skill-card p {
+    font-size: 20px;
+}
+
 .skill-card {
     padding: 30px;
     border-radius: 12px;
@@ -224,7 +232,7 @@ header {
 }
 
 .skill-card i {
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 10px;
 }
 
